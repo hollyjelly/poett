@@ -1,7 +1,8 @@
 window.onload = function(){
-    const btn = document.getElementsByClassName('image')[0];
-    const menu = document.getElementsByClassName('group')[0];
-    const barbtn = document.getElementsByTagName('h3')[0];
+    const btn = document.querySelector('.image');
+    const menu = document.querySelector('.group');
+    const barbtn = document.querySelector('h3');
+    console.log(barbtn);
 
     const search = document.querySelector('.img');
     const searal = document.querySelector('.search');
