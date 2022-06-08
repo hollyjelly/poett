@@ -136,6 +136,7 @@ html{
                 border-right: 1px solid #868e74;
                 border-left: 1px solid #868e74;
                 margin: 0 auto;
+                color: transparent;
             }
         }
         .hdrMd{
@@ -235,11 +236,10 @@ html{
                             form{
                                 input{
                                     width: 80%;
-                                    height: $lh15;
+                                    height: #{'min(1.4rem,56px)'};
                                     background-color: #ebe7e4;
                                     border: 0px;
-                                    line-height: $lh15;
-                                    height: $lh15;
+                                    line-height: #{'min(1.4rem,56px)'};
                                     color: #868e74;
                                     border-radius: 10px;
                                 }
@@ -664,6 +664,11 @@ html{
                     }
                     .btns{
                         width: 12%;
+                        .search{
+                            .image{
+                                width: 30%;
+                            }
+                        }
                     }
                 }
             }
@@ -822,8 +827,8 @@ html{
                                 right: -20%;
                                 form{
                                     input{
-                                        line-height: $lh1;
-                                        height: $lh1;
+                                        line-height:#{'min(0.9rem,36px)'};
+                                        height: #{'min(0.9rem,36px)'};
                                     }
                                 }
                                 .image{
