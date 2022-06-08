@@ -2,8 +2,6 @@ window.onload = function(){
     const btn = document.querySelector('.image');
     const menu = document.querySelector('.group');
     const barbtn = document.querySelector('h3');
-    console.log(barbtn);
-
     const search = document.querySelector('.img');
     const searal = document.querySelector('.search');
     const cartbtn = document.querySelector('.btn.b2');
@@ -89,4 +87,6 @@ window.onload = function(){
     barbtn.onclick = menubar
     search.onclick = searchalert
     cartbtn.onclick = cartalert
+
+    console.log('<나현지>의 5번째 포트폴리오 poett 봐주셔서 감사합니다(´▽`ʃ♡ƪ)');
 }

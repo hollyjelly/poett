@@ -60,7 +60,6 @@ window.onload = function(){
     cartbtn.onclick = cartalert
         // 하트
         heartbtn.forEach((e,ind)=>{
-            console.log(e)
             btnon[ind] = true;
             heart[ind] = true;
             e.onclick =(o)=>{
