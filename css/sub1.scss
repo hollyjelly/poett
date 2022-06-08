@@ -846,6 +846,7 @@ html{
             h2{
                 font-size: #{'min(4em,40px)'};
                 line-height: $lh1;
+                cursor: default;
                 &::selection {
                     background-color: #868e74;
                     color: #fff;

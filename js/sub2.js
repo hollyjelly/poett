@@ -3,7 +3,7 @@ window.onload = function(){
     const menu = document.querySelector('.group');
     const barbtn = document.querySelector('h3');
     const aler = document.querySelectorAll('.alert');
-    const heartbtn = document.querySelectorAll('span');
+    const heartbtn = document.querySelectorAll('.heart');
     const top = document.querySelector('.topbutton');
     const search = document.querySelector('.img');
     const searal = document.querySelector('.search');
@@ -60,6 +60,7 @@ window.onload = function(){
     cartbtn.onclick = cartalert
         // 하트
         heartbtn.forEach((e,ind)=>{
+            console.log(e)
             btnon[ind] = true;
             heart[ind] = true;
             e.onclick =(o)=>{
