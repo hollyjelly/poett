@@ -954,6 +954,7 @@ html{
                 border-right: 1px solid #fff;
                 border-left: 1px solid #fff;
                 margin: 0 auto;
+                color: transparent;
             }
         }
         .ftrMd{
@@ -1029,6 +1030,7 @@ html{
                 border-right: 1px solid #fff;
                 border-left: 1px solid #fff;
                 margin: 0 auto;
+                color: transparent;
             }
         }
     }
@@ -1748,6 +1750,13 @@ html{
                         }
                         .image{
                             height: #{'min(6rem,240px)'};
+                        }
+                        .texts{
+                            height: #{'min(6rem,240px)'};
+                            p{
+                                line-height: $lh;
+                                font-size: #{'min(1.4em,14px)'};
+                            }
                         }
                     }
                 }
