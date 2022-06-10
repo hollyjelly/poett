@@ -381,37 +381,42 @@ html{
                     .bottom{
                         margin-top: $lh15;
                         width: 100%;
-                        border: 2px solid #868e74;
                         background-color: #ebe7e4;
                         border-radius: 2px;
-                        input{
+                        form{
+                            position: relative;
+                        }
+                        textarea{
+                            border: 2px solid #868e74;
                             color: #868e74;
                             font-size: #{'min(1.8em,18px)'};
                             width: 100%;
-                            border: 0px;
                             background-color: #ebe7e4;
                             font-family: myungjo;
                             height: #{'min(7.5rem,300px)'};
                         }
-                    }
-                    .btn{
-                        width: 20%;
-                        height: $lh1;
-                        line-height: $lh1;
-                        font-size: #{'min(1.5em,15px)'};
-                        text-transform: uppercase;
-                        background-color: #868e74;
-                        color: #ebe7e4;
-                        text-align: center;
-                        border-radius: 5px;
-                        margin-left: auto;
-                        margin-top: $lh;
-                        cursor: pointer;
-                        &:hover{
-                            border: 2px solid #868e74;
-                            background-color: #ebe7e4;
-                            color: #868e74;
-                            font-weight: 700;
+                        input{
+                            position: absolute;
+                            width: 20%;
+                            height: $lh1;
+                            line-height: $lh1;
+                            font-size: #{'min(1.5em,15px)'};
+                            text-transform: uppercase;
+                            background-color: #868e74;
+                            color: #ebe7e4;
+                            text-align: center;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            border: 0;
+                            right: 0;
+                            bottom: #{'min(-1.5rem,-60px)'};
+                            z-index: 2;
+                            &:hover{
+                                border: 2px solid #868e74;
+                                background-color: #ebe7e4;
+                                color: #868e74;
+                                font-weight: 700;
+                            }
                         }
                     }
                 }
@@ -906,7 +911,7 @@ html{
                         }
                         .bottom{
                             margin-top: $lh;
-                            input{
+                            textarea{
                                 height: #{'min(5rem,200px)'};
                             }
                         }
