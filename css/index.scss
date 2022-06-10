@@ -1113,6 +1113,15 @@ html{
                             width: 55%;
                             height: #{'min(5rem,200px)'};
                             margin-top: $lh1;
+                            span.flo1{
+                                bottom: #{'min(-1.5rem,-60px)'};
+                            }
+                            span.flo2{
+                                bottom: #{'min(-1.5rem,-60px)'};
+                            }
+                            span.flo3{
+                                bottom: #{'min(-1.5rem,-60px)'};
+                            }
                         }
                         .texts{
                             margin: 0 auto;
