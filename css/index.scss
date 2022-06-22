@@ -712,6 +712,7 @@ html{
     bottom: $lh1;
     cursor: pointer;
     z-index: 10;
+    color: transparent;
 }
 // 반응형
 @media (max-width:1024px) and (min-width:0px){
